@@ -81,7 +81,8 @@ class SunoApi {
     }
     // Save clerk version ID for auth
     //this.clerkVersion = versionListResponse?.data?.['tags']['latest'];
-    this.clerkVersion = "5.35.0";
+    const STABLE_CLERK_VERSION = "4.74.0";
+    this.clerkVersion = STABLE_CLERK_VERSION;
   }
 
   /**
